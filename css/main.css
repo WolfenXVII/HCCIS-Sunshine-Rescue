@@ -1,0 +1,164 @@
+body {
+
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    text-transform: none;
+    background-color: black;
+
+}
+
+h1 {
+
+    font-family: 'Book Antiqua', sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 25%;
+
+}
+
+p {
+
+    width: 75%;
+
+}
+
+table, td{
+
+    border: white solid 3px;
+    padding: 10px;
+    text-align: center;
+
+}
+th {
+
+    padding-right: 10px;
+
+}
+.navigation a:hover {
+
+    background-color: #333333;
+}
+
+
+.navigation {
+
+    position: sticky;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+.navigation li {
+
+    padding: 25px 10px;
+    margin: auto;
+    list-style-type: none;
+    display: inline;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+.navigation a {
+
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+.active {
+
+    background-color: yellowgreen;
+
+}
+
+.content {
+
+    margin-top: 40rem;
+    padding: 30px;
+    text-align: -webkit-center;
+    color: white;
+    background-color: black;
+
+}
+
+.cat p {
+
+    text-align: left;
+    left: 50%;
+    width: 50%
+
+}
+
+.dog p {
+
+    text-align: left;
+    left: 50%;
+    width: 50%
+
+}
+
+.emphasis {
+
+    font-weight: 900;
+
+}
+
+#header {
+
+    color: white;
+    background-color: #999966;
+    Padding: 40px;
+}
+
+#container {
+
+    width: 80%;
+    border: solid 2px black;
+    padding: 30px;
+    margin: 8px auto auto;
+
+    /*background image instead of background-color*/
+    background: url(../images/website/dogsBackgroundImage.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+#footer {
+
+    background-color: #999966;
+    padding: 10px;
+
+}
+
+#footer a {
+
+    margin: auto;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-right: white 1px solid;
+    border-left: white 1px solid;
+
+}
